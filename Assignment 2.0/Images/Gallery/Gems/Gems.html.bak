@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Gems</title>
+		
+		<link rel = "stylesheet" href = "../../../main.css">
+
+		<link rel = "icon" type= "image/x-icon" href = "../../logo.ico">
+
+		<style>
+
+					
+		</style>
+	</head>
+
+	<body>
+			<div class= "gallery">
+				<img class= "img_normal" src = "Images/1.jpg" alt = "image 1">			
+
+				<div>
+					Add a description below here
+				</div>
+			
+				<div class= "Description">
+					This loney but dark road is more than your typical image. The photographer uses the fog to create an eerie
+					atmosphere, enabling you to soak up the isolation of the area in question.
+				</div>
+
+			</div>
+
+
+			<div class= "gallery">
+				<img class= "img_normal" src = "Images/2.webp" alt= "image 2">				
+
+				<div >
+					Add a description below here
+				</div>
+			
+				<div class= "Description">
+					This loney but dark road is more than your typical image. The photographer uses the fog to create an eerie
+					atmosphere, enabling you to soak up the isolation of the area in question.
+				</div>
+
+			</div>
+
+
+			<div class= "gallery">
+					<img  class= "img_abnormal"src = "Images/3.jpeg" alt= "image 3">				
+
+				<div>
+					Add a description below here
+				</div>
+
+				<div class= "Description">
+					This loney but dark road is more than your typical image. The photographer uses the fog to create an eerie
+					atmosphere, enabling you to soak up the isolation of the area in question.
+				</div>
+			</div>
+
+
+
+			<div class= "gallery">
+				<img class= "img_normal" src = "Images/4.jpeg" alt= "image 4">			
+
+				<div>
+					Add a description below here
+				</div>
+
+				<div class= "Description">
+					This loney but dark road is more than your typical image. The photographer uses the fog to create an eerie
+					atmosphere, enabling you to soak up the isolation of the area in question.
+				</div>
+			</div>
+
+	
+			<div class= "gallery">
+				<img class= "img_normal" src = "Images/5.jpeg" alt= "image 5">
+
+				<div>
+					Add a description below here
+				</div>
+
+				<div class= "Description">
+					This loney but dark road is more than your typical image. The photographer uses the fog to create an eerie
+					atmosphere, enabling you to soak up the isolation of the area in question.
+				</div>
+			</div>
+
+			<div class= "gallery">
+				<img class= "img_normal" src = "Images/6.webp" alt= "image 6">				
+
+				<div>
+					Add a description below here
+				</div>
+			
+				<div class= "Description">
+					This loney but dark road is more than your typical image. The photographer uses the fog to create an eerie
+					atmosphere, enabling you to soak up the isolation of the area in question.
+				</div>
+
+			</div>
+				
+			<div class= "gallery">
+				<img class= "img_normal" src = "Images/7.webp" alt= "image 7" >				
+
+				<div>
+					Add a description below here
+				</div>
+			
+				<div class= "Description">
+					This loney but dark road is more than your typical image. The photographer uses the fog to create an eerie
+					atmosphere, enabling you to soak up the isolation of the area in question.
+				</div>
+
+			</div>
+
+			<div class= "gallery">
+				<img class= "img_normal" src = "Images/8.webp" alt= "image 8" >				
+
+				<div>
+					Add a description below here
+				</div>
+			
+				<div class= "Description">
+					This loney but dark road is more than your typical image. The photographer uses the fog to create an eerie
+					atmosphere, enabling you to soak up the isolation of the area in question.
+				</div>
+
+			</div>
+
+			<div class= "gallery">
+				<img class= "img_normal" src = "Images/9.jpeg" alt= "image 9">				
+
+				<div>
+					Add a description below here
+				</div>
+			
+				<div class= "Description">
+					This loney but dark road is more than your typical image. The photographer uses the fog to create an eerie
+					atmosphere, enabling you to soak up the isolation of the area in question.
+				</div>
+
+			</div>
+
+			<div class= "gallery">
+				<img class= "img_normal" src = "Images/10.jpeg" alt= "image 10">				
+
+				<div>
+					Add a description below here
+				</div>
+			
+				<div class= "Description">
+					This loney but dark road is more than your typical image. The photographer uses the fog to create an eerie
+					atmosphere, enabling you to soak up the isolation of the area in question.
+				</div>
+
+			</div>
+
+			<div class= "gallery">
+					<img class= "img_abnormal" src = "Images/11.webp" alt= "image 11">				
+
+				<div>
+					Add a description below here
+				</div>
+
+				<div class= "Description">
+					This loney but dark road is more than your typical image. The photographer uses the fog to create an eerie
+					atmosphere, enabling you to soak up the isolation of the area in question.
+				</div>
+			</div>
+
+
+			<div class= "gallery">
+					<img class= "img_abnormal" src = "Images/12.jpeg" alt= "image 11" >				
+
+				<div>
+					Add a description below here
+				</div>
+
+				<div class= "Description">
+					This loney but dark road is more than your typical image. The photographer uses the fog to create an eerie
+					atmosphere, enabling you to soak up the isolation of the area in question.
+				</div>
+			</div>
+
+			<div class= "gallery">
+				<img class= "img_normal" src = "Images/13.jpeg" alt= "image 13" >				
+
+				<div>
+					Add a description below here
+				</div>
+			
+				<div class= "Description">
+					This loney but dark road is more than your typical image. The photographer uses the fog to create an eerie
+					atmosphere, enabling you to soak up the isolation of the area in question.
+				</div>
+
+			</div>
+
+			<div class= "gallery">
+				<img class= "img_normal" src = "Images/14.jpeg" alt= "image 14" >				
+
+				<div>
+					Add a description below here
+				</div>
+			
+				<div class= "Description">
+					This loney but dark road is more than your typical image. The photographer uses the fog to create an eerie
+					atmosphere, enabling you to soak up the isolation of the area in question.
+				</div>
+
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</body>
+
+</html>

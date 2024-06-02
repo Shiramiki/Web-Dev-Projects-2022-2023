@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Sky </title>
+		
+		<link rel = "stylesheet" href = "../../../main.css">
+
+		<link rel = "icon" type= "image/x-icon" href = "../../logo.ico">
+
+		<style>
+
+					
+		</style>
+	</head>
+
+	<body>
+			<div class= "gallery">
+				<img class= "img_abnormal" src = "Images/1.jpg" alt = "image 1">			
+
+				<div>
+					Add a description below here
+				</div>
+			
+				<div class= "Description">
+					This loney but dark road is more than your typical image. The photographer uses the fog to create an eerie
+					atmosphere, enabling you to soak up the isolation of the area in question.
+				</div>
+
+			</div>
+
+
+			<div class= "gallery">
+				<img class= "img_normal" src = "Images/2.jpg" alt= "image 2">				
+
+				<div>
+					Add a description below here
+				</div>
+			
+				<div class= "Description">
+					This loney but dark road is more than your typical image. The photographer uses the fog to create an eerie
+					atmosphere, enabling you to soak up the isolation of the area in question.
+				</div>
+
+			</div>
+
+
+			<div class= "gallery">
+				<img class= "img_abnormal" src = "Images/3.jpg" alt= "image 3">			
+
+				<div>
+					Add a description below here
+				</div>
+
+				<div class= "Description">
+					This loney but dark road is more than your typical image. The photographer uses the fog to create an eerie
+					atmosphere, enabling you to soak up the isolation of the area in question.
+				</div>
+			</div>
+
+
+			<div class= "gallery">
+				<img class= "img_normal" src = "Images/4.jpg" alt= "image 4">			
+
+				<div>
+					Add a description below here
+				</div>
+
+				<div class= "Description">
+					This loney but dark road is more than your typical image. The photographer uses the fog to create an eerie
+					atmosphere, enabling you to soak up the isolation of the area in question.
+				</div>
+			</div>
+
+	
+			<div class= "gallery">
+				<img class= "img_normal" src = "Images/5.jpeg" alt= "image 5">
+
+				<div>
+					Add a description below here
+				</div>
+
+				<div class= "Description">
+					This loney but dark road is more than your typical image. The photographer uses the fog to create an eerie
+					atmosphere, enabling you to soak up the isolation of the area in question.
+				</div>
+			</div>
+	</body>
+
+</html>

@@ -1,0 +1,246 @@
+<DOCTYPE html>
+<html>
+
+	<head>
+		<link rel ="stylesheet" href="main.css">
+		<style>
+
+			.load, .welcome	{
+				width:95vw;
+				height:95vh;
+				background:#333;
+				box-shadow:0px 0px 20px 20px pink;
+				margin:20px;
+				margin:auto;
+				position:absolute;
+				left:50%;
+				top:50%;
+				transform:translate(-50%,-50%)
+				
+				}
+			
+			.loadborder	{
+				border:5px solid goldenrod;
+				width:30vw;
+				height:30vw;
+				border-radius:100%;
+				margin:auto;
+				position: relative;
+				top:50%;
+				transform:translate(0,-50%);
+				box-shadow:0px 0px 40px 20px goldenrod;
+				overflow:hidden;
+				animation: glow 60s;
+				
+
+				}
+				
+			p 	{
+				font: bold 3vw sans-serif;
+				font-weight:100;
+				color: white;
+				position:absolute;
+				left:50%;
+				top:50%;
+				transform:translate(-50%,-50%);
+				text-shadow: 5px 3px 3px pink;
+				animation: flicker 60s ;
+				}
+				
+			.progress	{
+				background:goldenrod;
+				opacity:0.5;
+				width:100%;
+				height:100%;
+				animation: progression 60s;
+				
+			}
+			
+			@keyframes progression	{
+				0%	{height:0%;}
+				5%	{height:0%;}
+				10% {height:10%;}
+				20%	{height:10%;}
+				30%	{height:30%;}
+				35% {height:30%;}
+				50%	{height:60%;}
+				60%	{height:60%;}
+				65%	{height:55%;}
+				68% {height:50%;}
+				70%	{height:50%;}
+				80%	{height:65%;}
+				90%	{height:80%;}
+				95% {height:80%;}
+				100% {height:100%;}
+			}
+			
+			@keyframes	flicker	{
+								
+				0%	{opacity:1;}
+				5% 	{opacity:0.2;}
+				10%	{opacity:1;}
+				15%	{opacity:0.2;}
+				20%	{opacity:1;}
+				25% {opacity:0.2;}
+				30%	{opacity:1;}
+				35% {opacity:0.2;}
+				40%	{opacity:1;}
+				45% {opacity:0.2;}
+				50% {opacity:1;}
+				55%	{opacity:0.2;}
+				60%	{opacity:1;}
+				65%	{opacity:0.2;}
+				70%	{opacity:1;}
+				75%	{opacity:0.2;}
+				80%	{opacity:1;}
+				85%	{opacity:0.2;}
+				90% {opacity:1;}
+				95%	{opacity:0.2;}
+				100%{opacity:1;}
+			}
+			
+			@keyframes	glow	{
+			
+				0%	{box-shadow:120px 80px 40px 20px goldenrod;}
+				5%	{box-shadow:120px 80px 40px 20px goldenrod;}
+				10% {box-shadow:108px 72px 40px 20px goldenrod;}
+				20%	{box-shadow:108px 72px 40px 20px goldenrod;}
+				30%	{box-shadow:84px 56px 40px 20px goldenrod;}
+				35% {box-shadow:84px 56px 40px 20px goldenrod;}
+				50%	{box-shadow:48px 32px 40px 20px goldenrod;}
+				60%	{box-shadow:48px 32px 40px 20px goldenrod;}
+				65%	{box-shadow:54px 36px 40px 20px goldenrod;}
+				68% {box-shadow:60px 40px 40px 20px goldenrod;}
+				70%	{box-shadow:60px 40px 40px 20px goldenrod;}
+				80%	{box-shadow:42px 28px 40px 20px goldenrod;}
+				90%	{box-shadow:30px 24px 40px 20px goldenrod;}
+				95% {box-shadow:30px 24px 40px 20px goldenrod;}
+				100% {box-shadow:0px 0px 40px 20px goldenrod;}
+			}
+			
+			.welcome	{
+				z-index:2;
+				visibility:visible;
+				align-items:center;
+				justify-content:center;
+				animation: visi 65s;
+				}
+			
+			.keyboard .alphabets, 
+				.keyboard .numbers		{
+					display:flex;
+					flex-wrap:wrap;
+					list-style:none;
+					margin:0;
+					padding:0;
+						}
+						
+				.keyboard	{
+					background:#666;
+					border: 2px solid #888;
+					padding-top:10px;
+					position:absolute;
+					bottom:0%;
+					display:flex;
+					align-items:flex-end;
+					width:90vw;
+					left:50%;
+					transform:translate(-50%, 0%)
+					}
+						
+				.keyboard .alphabets li,
+				.keyboard .numbers li	{
+					cursor:pointer;
+					width: 6vw;
+					text-align:center;
+					font-size: 5vw;
+					text-transform: uppercase;
+					margin-bottom: 15px;
+					}
+					
+				.keyboard li:active	{
+					color:goldenrod;
+					
+					}
+				
+					
+				.keyboard li:focus	{
+					outline:none;
+					
+					}
+				
+				.keyboard li:focus-visible	{
+					outline:1px solid goldenrod;
+					
+					}
+					
+				@keyframes visi	{
+					0% {opacity:0;}
+					25%	{opacity:0;}
+					50% {opacity:0;}
+					75%	{opacity:0;}
+					90% {opacity:0;}
+					100% {opacity:1;}
+					
+					}
+				
+				
+		</style>
+	</head>
+	
+	<body>
+		<div class = "load">
+			<div class = "loadborder">
+				<p> Loading ...</p>
+				<div class="progress">
+				</div>
+			</div>
+		</div>
+		
+		<div class = "welcome">
+			<p style="padding-bottom:40vh; font-size:5vw;">Thanx for watching</p>
+				<div class ="keyboard">
+					<ul class = "alphabets">
+						<li tabindex="0">a</li>
+						<li class = "textb" tabindex="0">b</li>
+						<li class = "textc" tabindex="0">c</li>
+						<li tabindex="0">d</li>
+						<li class = "texte" tabindex="0">e</li>
+						<li tabindex="0">f</li>
+						<li tabindex="0">g</li>
+						<li tabindex="0">h</li>
+						<li class = "texti" tabindex="0">i</li>
+						<li tabindex="0">j</li>
+						<li tabindex="0">k</li>
+						<li class = "textl" tabindex="0">l</li>
+						<li class = "textm" tabindex="0">m</li>
+						<li tabindex="0">n</li>
+						<li class = "texto" tabindex="0">o</li>
+						<li tabindex="0">p</li>
+						<li tabindex="0">q</li>
+						<li class = "textr" tabindex="0">r</li>
+						<li class = "texts" tabindex="0">s</li>
+						<li class = "textt" tabindex="0">t</li>
+						<li class = "textu" tabindex="0">u</li>
+						<li tabindex="0">v</li>
+						<li class = "textw" tabindex="0">w</li>
+						<li tabindex="0">x</li>
+						<li tabindex="0">y</li>
+						<li tabindex="0">z</li>
+					</ul>
+					<ul class = "numbers">
+						<li tabindex="0">1</li>
+						<li tabindex="0">2</li>
+						<li tabindex="0">3</li>
+						<li tabindex="0">4</li>
+						<li tabindex="0">5</li>
+						<li tabindex="0">6</li>
+						<li tabindex="0">7</li>
+						<li tabindex="0">8</li>
+						<li tabindex="0">9</li>
+						<li tabindex="0">0</li>
+					</ul>
+				</div>
+		</div>
+	</body>
+</html>
